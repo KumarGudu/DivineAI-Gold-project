@@ -1,12 +1,12 @@
 @media screen {
-    .container{
+    .asis{
         width: 100%;
         margin: auto;
         margin-top: 30px;
         display: flex;
         justify-content: space-around;
     }
-    .card{
+    .ashish_card{
         background-color: antiquewhite;
         height: 50vh;
         width: 32%;
@@ -14,7 +14,8 @@
         border-radius: 5px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     }
-    img{
+    .ashish_img{
+        object-fit: cover;
         width: 100%;
         height: 45vh;
         border-bottom: 1px solid gray;
@@ -27,7 +28,7 @@
         display: flex;
         justify-content: space-between;
     }
-    h4{
+    .ashish_h4{
         font-weight: bolder;
         color: rgb(139, 76, 76);
     }
@@ -36,22 +37,17 @@
         width: 82%;
         margin: auto;
     }
-    h4 h5 .hover{
-        background-color: #fff;
-    }
-    div .details.hover{
-        background-color: aqua;
-    }
+    
 }
 @media screen and (min-width:360px) and (max-width:960px) {
-    .container{
+    .asis{
         width: 100%;
         margin: auto;
         margin-top: 30px;
         display: flex;
         justify-content: space-around;
     }
-    .card{
+    .ashish_card{
         background-color: antiquewhite;
         height: 20vh;
         width: 32%;
@@ -59,7 +55,7 @@
         border-radius: 5px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     }
-    img{
+    .ashish_img{
         width: 100%;
         height: 15vh;
         border-bottom: 1px solid gray;
@@ -72,18 +68,18 @@
         display: flex;
         justify-content: space-between;
     }
-    h4{
+    .ashish_h4{
         font-size: 10px;
         font-weight: bolder;
         color: rgb(139, 76, 76);
     }
-    h5{
+    .ashish_h5{
         font-size: 6px;
     }
-    h1{
+    .ashish_h1{
         font-size: 20px;
     }
-    hr{
+    .ashish_hr{
         
         width: 82%;
         margin: auto;
