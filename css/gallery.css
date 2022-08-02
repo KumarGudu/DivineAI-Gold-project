@@ -1,0 +1,19 @@
+.gallery_img {
+    border-radius: 20px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.gallery-head{
+    padding-bottom: 50px;
+    /* font-family: 'Sofia'; */
+    font-size: 25px;
+    text-align: center;
+ }
+.gallery_card{
+    border-radius: 20px;
+}
+.container{
+    padding-bottom: 50px;
+}

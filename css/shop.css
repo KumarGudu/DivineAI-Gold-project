@@ -1,0 +1,15 @@
+
+.Jewellery_img img {
+    width: 400px; 
+    height: 300px; 
+ }
+ 
+ @media (max-width:767px){
+  .Jewellery_img img {
+    width: 300px; 
+    height: 300px;
+  }
+
+ }
+ 
+ 

@@ -1,0 +1,13 @@
+.why_us_img img {
+    width: 80px; 
+    height: 70px; 
+    margin-bottom: 10px;
+ }
+ 
+ @media (max-width:767px){
+  .why_us_img img {
+    width: 50px; 
+    height:60px;
+  }
+
+ }
